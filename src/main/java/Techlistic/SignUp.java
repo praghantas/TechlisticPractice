@@ -24,6 +24,7 @@ public class SignUp {
 		driver.findElement(By.xpath("//input[@value='Automation Tester']")).click();
 		driver.findElement(By.xpath("//input[@value='Selenium Webdriver']")).click();
 		
+		//selecting the continent from the dropdown list using SelectByVisisbleText
 		WebElement continents =driver.findElement(By.id("continents"));
 		Select select1 =new Select(continents);
 		
